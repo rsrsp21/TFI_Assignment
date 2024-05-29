@@ -5,171 +5,160 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Travelpreneur</title>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-            body {
-                font-family: Arial, sans-serif;
-                text-align: center;
-                margin: 0;
-                padding: 0;
-                background-color: #f8f8f8;
-            }
-            .header {
-                background-color: #f8f8f8;
-                padding: 5px 0;
-            }
-            .header hr{
-                height:20px;
-                color:black;
-            }
-            .header img {
-                width: 300px;
-            }
-            .congrats {
-                font-family: "Comic Neue", cursive;
-                font-size: 80px;
-                font-weight: bold;
-                margin: 5px 0;
-                color: rgba(3, 4, 95, 1);
-                font-style: regular;
-                font-weight: 700;
-                letter-spacing: 1;
-            }
-            .become {
-                font-family: 'Poppins', sans-serif;
-                font-size: 46px;
-                font-weight: bold;
-                margin: 20px 0;
-                color: rgba(3, 4, 95, 1);
-                font-style: regular;
-                font-weight: 700;
-            }
-            .trav {
-                font-family: 'Poppins', sans-serif;
-                font-size: 104px;
-                font-weight: bold;
-                margin: 20px 0;
-                color: red;
-                font-style: regular;
-                font-weight: 700;
-                letter-spacing: 2;
-            }
-            .red-text-bg {
-                background-color: red;
-                color: white;
-                font-size: 46px;
-                padding: 10px 0;
-                font-family: 'Poppins', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-            }
-            .instructions {
-                margin: 20px 0;
-                font-size: 35px;
-                font-family: 'Poppins', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                color: rgba(3, 4, 95, 1);
-            }
-            .video {
-                margin: 20px 0;
-            }
-            .video iframe {
-                width: 75%;
-                height: 500px;
-            }
-            .reasons {
-                margin: 40px 0;
-            }
-            .reasons h2 {
-                margin-bottom: 20px;
-                font-size: 46px;
-                font-family: 'Poppins', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                color: rgba(3, 4, 95, 1);
-            }
-            .reasons img {
-                width: 30%;
-                height: 300px;
-                margin: 10px;
-                object-fit: cover;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                box-sizing: border-box;
-            }
-            @media (max-width: 768px) {
-            .reasons img {
-                width: 100%;
-                margin: 10px 0;
-            }
-            .congrats {
-                font-size: 34px;
-            }
-            .become {
-                font-size: 36px;
-            }
-            .trav {
-                font-size: 36px;
-            }
-            .red-text-bg {
-                font-size: 30px;
-            }
-            .instructions {
-                font-size: 24px;
-            }
-            .form-container {
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+    .header {
+        background-color: #f8f8f8;
+        padding: 5px 0;
+    }
+    .header img {
+        width: 300px;
+    }
+    .congrats {
+        font-family: "Comic Neue", cursive;
+        font-size: 80px;
+        font-weight: bold;
+        margin: 5px 0;
+        color: rgba(3, 4, 95, 1);
+        font-style: regular;
+        font-weight: 700;
+        letter-spacing: 1;
+    }
+    .become {
+        font-family: 'Poppins', sans-serif;
+        font-size: 46px;
+        font-weight: bold;
+        margin: 20px 0;
+        color: rgba(3, 4, 95, 1);
+        font-style: regular;
+        font-weight: 700;
+    }
+    .trav {
+        font-family: 'Poppins', sans-serif;
+        font-size: 104px;
+        font-weight: bold;
+        margin: 20px 0;
+        color: red;
+        font-style: regular;
+        font-weight: 700;
+        letter-spacing: 2;
+    }
+    .red-text-bg {
+        background-color: red;
+        color: white;
+        font-size: 46px;
+        padding: 10px 0;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .instructions {
+        margin: 20px 0;
+        font-size: 35px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: rgba(3, 4, 95, 1);
+    }
+    .video {
+        margin: 20px 0;
+    }
+    .video iframe {
+        width: 75%;
+        height: 500px;
+    }
+    .reasons {
+        margin: 40px 0;
+    }
+    .reasons h2 {
+        margin-bottom: 20px;
+        font-size: 46px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: rgba(3, 4, 95, 1);
+    }
+    .reasons img {
+        width: 30%;
+        height: 300px;
+        margin: 10px;
+        object-fit: cover;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+    }
+    @media (max-width: 768px) {
+        .congrats {
+            font-size: 34px;
+        }
+        .become {
+            font-size: 36px;
+        }
+        .trav {
+            font-size: 36px;
+        }
+        .red-text-bg {
+            font-size: 30px;
+        }
+        .instructions {
+            font-size: 24px;
+        }
+        .form-container {
             padding: 0;
             margin: 0;
         }
         .form-container h2 {
             font-size: 20px;
         }
-        }
-            .form-container {
-                margin: 40px auto;
-                padding: 30px 100px 50px 100px;
-                background-color: #fff;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                display: inline-block;
-                box-sizing: border-box;
-                text-align: center; /* Center-align the content */
-            }
-
-            .form-container form {
-                display: flex; /* Use flexbox */
-                flex-direction: column; /* Stack form elements vertically */
-                align-items: center; /* Center-align form elements horizontally */
-            }
-
-            .form-container input {
-                width: calc(100% - 20px); /* Adjusted width */
-                padding: 10px;
-                margin: 10px 0;
-                font-size: 16px;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-            }
-
-            .form-container button {
-                width: calc(100% - 20px); /* Adjusted width */
-                margin-top: 10px; /* Added spacing between input and button */
-                padding: 10px 0;
-                font-size: 20px;
-                background-color: red;
-                color: white;
-                border: none;
-                cursor: pointer;
-                border-radius: 5px;
-            }
-            .form-container h2 {
-                font-size: 40px;
-                font-family: 'Poppins', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                color: black;
-            }
-        </style>
+    }
+    .form-container {
+        margin: 40px auto;
+        padding: 30px 20px; /* Adjusted padding */
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .form-container form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-container input {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .form-container button {
+        width: calc(100% - 20px);
+        margin-top: 10px;
+        padding: 10px 0;
+        font-size: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .form-container h2 {
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: black;
+    }
+</style>
     </head>
     <body>
         <div class="header">
